@@ -1,0 +1,21 @@
+.backgroud-about-us {
+    position: absolute;
+    bottom: 0px;
+}
+.backgroud-none {
+    display: none;
+}
+.backgroud-image {
+    height: 96vh;
+}
+.backgroud-members {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .backgroud-image {
+        height: 96.8vh;
+    }
+}

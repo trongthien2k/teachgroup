@@ -1,0 +1,35 @@
+.large-talent-pool {
+    .large-talent-pool-backgroud {
+        height: calc(100vh - 102px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .large-talent-pool-contain {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #222222;
+    }
+    .image-backgroud {
+        height: 100vh;
+    }
+    .content {
+        padding-left: 130px;
+        padding-right: 130px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .large-talent-pool-backgroud-image {
+        position: absolute;
+        right: 0px;
+    }
+}

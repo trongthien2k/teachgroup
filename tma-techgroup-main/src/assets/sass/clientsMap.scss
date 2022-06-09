@@ -1,0 +1,49 @@
+.clients-map {
+    flex-wrap: wrap;
+    .clients-map-backgroud {
+        height: calc(100vh - 102px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        background-image: url("../images/ClientsMap/backgroud-frame-clients.webp");
+        display: grid;
+        align-items: center;
+    }
+    .clients-map-text {
+        font-size: 48px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #222222;
+        font-weight: 700;
+    }
+    .clients-map-img {
+        padding-top: 53px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .clients-map {
+        .clients-map-backgroud {
+            display: block;
+        }
+        .clients-map-text {
+            padding-top: 56px;
+        }
+        .clients-map-img {
+            padding-top: 53px;
+        }
+    }
+    
+}
+
+// @media screen and (min-width: 1441px) and (max-width: 1920px) {
+//     .clients-map {
+//         .clients-map-text {
+//             padding-top: 116px;
+    
+//         }
+//         .clients-map-img {
+//             padding-top: 70px;
+//         }
+//     }
+// }

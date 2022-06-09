@@ -1,0 +1,117 @@
+.technologies-page {
+    flex-wrap: wrap;
+    height: calc(100vh - 102px);
+    align-items: center;
+    .about-us-content {
+        // padding-top: 68px ;
+        padding-left: 60px;
+        padding-right: 40px;
+        margin-top: -100px;
+    }
+    .technologies-title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        color: #222222;
+    }
+    .technologies-backgroud-right {
+        padding-left: 130px;
+    }
+    .technologies-img {
+        padding-right: 0 !important;
+        background: #1EB2FF;
+        height: 100vh;
+        width: 100vh;
+    }
+    .technologies-box {
+        padding-top: 48px;
+    }
+    .box-content {
+        height: 90px;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        margin-bottom: 16px;
+        // width: 293px;
+    }
+    .box-icon {
+        height: 100%;
+        background: #1EB2FF;
+        width: 112px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .box-text {
+        padding-left: 25px;
+    }
+    .box-icon-img {
+        width: 48px;
+        height: 48px
+    }
+    .col-box-left {
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+    .col-box-right {
+        padding-left: 8px;
+        padding-right: 0px;
+    }
+    .box-content-img {
+        height: 32px;
+        width: 32px;
+    }
+    .box-content-text {
+        padding-left: 8px;
+    }
+    .technologies-backroud-frame {
+        position: absolute;
+        right: 0px;
+    }
+    .technologies-backgroud-one {
+        padding-right: 110px;
+    }
+    .technologies-image-backgroud {
+        position: absolute;
+        left: 50px;
+        // top: 75px;
+        top: 20%;
+    }
+    .technologies-image-one {
+        filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.16));
+    }
+    .technologies-image-two {
+        filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.16));
+    }
+    .technologies-image-three {
+        filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.25));
+        padding-left: 16px;
+    }
+    .technologies-image-bottom {
+        padding-top: 16px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .technologies-page {
+        align-items: unset;
+        .about-us-content {
+            padding-top: 68px ;
+            margin-top: 0px;
+        }
+        .technologies-image-backgroud {
+            top: 75px;
+        }
+    }
+}
+// @media screen and (min-width: 1441px) and (max-width: 1920px) {
+//     .technologies-page {
+//         .technologies-image-backgroud {
+//             top: 175px;
+//         }
+//         .about-us-content {
+//             padding-top: 168px;
+//         }
+//     }
+    
+// }

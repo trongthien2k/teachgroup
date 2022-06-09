@@ -1,0 +1,517 @@
+.TMA-Tech-Group {
+    padding-top: 160px;
+    // padding-bottom: 245px;
+    position: relative;
+    .title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #222222;
+    }
+    // TMASolution
+    .title-tma-solution {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 120%;
+        color: #222222;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 12px 0px;
+    }
+    .title-tma-solution-span {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #222222;
+    }
+    .tech-group-box {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        height: 89px;
+        text-align: center;
+        padding-top: 18px;
+    }
+    .image-lab6 {
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        width: 100%;
+    }
+    .box-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        color: #222222;
+    }
+    .box-number {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        text-align: center;
+        color: #222222;
+        padding-top: 6px;
+    }
+    // TMABinhDinh
+        .title-tma-solution-bd {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 120%;
+            color: #222222;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 12px 0px;
+        }
+        .title-tma-solution-span-bd {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+            color: #222222;
+        }
+        .tech-group-box-bd {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+            height: 89px;
+            text-align: center;
+            padding-top: 18px;
+        }
+        .image-lab6-bd {
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+        .box-title-bd {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 120%;
+            color: #222222;
+        }
+        .box-number-bd {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            text-align: center;
+            color: #222222;
+            padding-top: 6px;
+        }
+        // TMAinnovation
+        .title-tma-solution-inno {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 120%;
+            color: #222222;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 12px 0px;
+        }
+        .title-tma-solution-span-inno {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+            color: #222222;
+        }
+        .box-inno {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+            height: 407px;
+        }
+        .title-inno {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 120%;
+            color: #222222;
+            padding: 28px 27px 28px 24px;
+        }
+        .title-inno-R-D {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 120%;
+            color: #222222;
+            padding: 41px 41px 41px 24px;
+        }
+        .content-inno-remote {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            color: #222222;
+            padding: 0px 22px 16px 24px;
+        }
+        .icon-circle {
+            padding-right: 8px;
+            color: #1EB2FF;
+        }
+    .tech-group-contain-img {
+        position: absolute;
+        top: 430px;
+    }
+    .tech-group-backgroud-img {
+        height: 1055px;
+    }
+}
+
+.tech-group-backgroundImage {
+    position: absolute;
+    right: 0;
+    top: 268px;
+    .tech-group-backgroundImage-Image{
+        width: 1240px;
+        height: 565px;
+    }
+}
+
+.tech-group-backgroundImage-bd {
+    position: absolute;
+    right: 0;
+    top: 900px;
+    .tech-group-backgroundImage-Image-bd{
+        width: 1240px;
+        height: 565px;
+    }
+}
+
+.tech-group-backgroundImage-inno {
+    position: absolute;
+    right: 0;
+    top: 1562px;
+    .tech-group-backgroundImage-Image-inno{
+        width: 1240px;
+        height: 565px;
+    }
+}
+
+@media (max-width: 2440px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 1200px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 1200px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 1200px;
+        }
+    }
+}
+
+@media (max-width: 2350px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 1150px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 1150px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 1150px;
+        }
+    }
+}
+
+@media (max-width: 2330px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 1100px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 1100px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 1100px;
+        }
+    }
+}
+
+@media (max-width: 2310px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 1050px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 1050px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 1050px;
+        }
+    }
+}
+
+@media (max-width: 2030px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 1000px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 1000px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 1000px;
+        }
+    }
+}
+
+@media (max-width: 1930px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 950px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 950px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 950px;
+        }
+    }
+}
+
+@media (max-width: 1850px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 900px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 900px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 900px;
+        }
+    }
+}
+
+@media (max-width: 1760px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 850px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 850px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 850px;
+        }
+    }
+}
+
+@media (max-width: 1670px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 800px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 800px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 800px;
+        }
+    }
+}
+
+@media (max-width: 1570px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 750px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 750px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 750px;
+        }
+    }
+}
+
+@media (max-width: 1470px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 750px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 750px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 750px;
+        }
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 720px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 720px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 720px;
+        }
+    }
+}
+
+@media (max-width: 1370px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 650px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 650px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 650px;
+        }
+    }
+    // .image-about-us-lab8-nav {
+    //     width: 350px;
+    //     height: 450px;
+    // }
+    // .image-about-us-lab6-nav {
+    //     width: 350px;
+    //     height: 450px;
+    // }
+}
+
+@media (max-width: 1260px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 600px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 600px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 570px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 570px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 570px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 530px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 530px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 530px;
+        }
+    }
+}
+
+@media (max-width: 1030px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 500px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 500px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 1030px) {
+    .tech-group-backgroundImage {
+        .tech-group-backgroundImage-Image{
+            width: 500px;
+            height: 500px;
+        }
+    }
+    .tech-group-backgroundImage-bd {
+        .tech-group-backgroundImage-Image-bd{
+            width: 500px;
+        }
+    }
+    .tech-group-backgroundImage-inno {
+        .tech-group-backgroundImage-Image-inno{
+            width: 500px;
+        }
+    }
+}

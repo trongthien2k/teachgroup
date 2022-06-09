@@ -1,0 +1,140 @@
+.TMA-innovation-park {
+    background: #1EB2FF;
+    .TMA-innovation-park-backgroud {
+        height: calc(100vh - 102px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        background-image: url("../images/Solutions/backgroud-frame-one.webp");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .TMA-innovation-park-contain {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-top: -84px;
+    }
+    .title-VN {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-top: -84px;
+        padding-left: 259px;
+        padding-right: 258px;
+    }
+    .title-span {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding-top: 8px;
+    }
+    .content {
+        padding-top: 56px;
+    }
+    .content-VN {
+        padding-top: 36px;
+    }
+    .content-icon {
+        padding-bottom: 8px;
+        padding-top: 15px;
+    }
+    .content-title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 146%;
+        color: #FFFFFF;
+    }
+    .content-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 146%;
+        color: #FFFFFF;
+        padding-top: 8px;
+    }
+    .image {
+        padding-top: 40px;
+        padding-bottom: 51px;
+    }
+    .image-VN {
+        padding-top: 24px;
+    }
+    .image-col-lab-6 {
+        padding-left: 0px;
+        padding-right: 12px;
+    }
+    .image-col-lab-8 {
+        padding-right: 0px;
+        padding-left: 12px;
+    }
+    .content-letf {
+        padding-left: 200px;
+        padding-right: 65px;
+    }
+    .content-betwen {
+        padding-right: 65px;
+    }
+    .contain-content {
+        text-align: left;
+        padding-left: 8px;
+    }
+    .image-inno-park {
+        width: 100%;
+        height: 238px;
+    }
+    .image-col-1 {
+        padding-left: 0px;
+        padding-right: 12px;
+    }
+    .image-col-2 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .image-col-3 {
+        padding-left: 12px;
+        padding-right: 0px;
+    }
+    .box-col-1 {
+        padding-left: 0px;
+        padding-right: 12px;
+    }
+    .box-col-2 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .box-col-3 {
+        padding-left: 12px;
+        padding-right: 0px;
+    }
+    .box-backgroud {
+        width: 100%;
+        height: 100px;
+        background: #FFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-1 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .box-2 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .none {
+        display: none;
+    }
+}

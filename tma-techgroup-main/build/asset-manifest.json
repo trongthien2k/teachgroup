@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5809fe1.css",
+    "main.js": "/static/js/main.0a28fdcc.js",
+    "static/media/IMG_5845.jpg": "/static/media/IMG_5845.b93cae7d5a7f2bb5b499.jpg",
+    "static/media/IMG_5848.jpg": "/static/media/IMG_5848.03ec5ed91e6de66655a8.jpg",
+    "static/media/IMG_5854.jpg": "/static/media/IMG_5854.5a22602f1d6f3afdea13.jpg",
+    "static/media/image-about-us-lab6.png": "/static/media/image-about-us-lab6.17f456689e8035bc5720.png",
+    "static/media/image-about-us-lab8.png": "/static/media/image-about-us-lab8.1e0229f1598cca84c0ea.png",
+    "static/media/map.png": "/static/media/map.8d68a17176acef3669ec.png",
+    "static/media/backgroud-aboutUs-Technology.png": "/static/media/backgroud-aboutUs-Technology.e1f4edee7c2744424f49.png",
+    "static/media/logo-tma.png": "/static/media/logo-tma.7c7aea3406807d5df82f.png",
+    "static/media/backgroud-Technology-solutions.png": "/static/media/backgroud-Technology-solutions.88cad05fd1c2649a3dd0.png",
+    "static/media/backgound-banner.png": "/static/media/backgound-banner.b5e50a3cb7a8bab2eaf7.png",
+    "static/media/banner-bg-left.png": "/static/media/banner-bg-left.a16e92a0cde58cad49f5.png",
+    "static/media/background-slider.png": "/static/media/background-slider.82e0ebcbbf4e7d1b96f2.png",
+    "static/media/banner-bg-right.png": "/static/media/banner-bg-right.4fe2050bf0cadd80bfee.png",
+    "static/media/background-about.png": "/static/media/background-about.0f88c5d6a095e3dac4e7.png",
+    "static/media/logo-tma-solutions.png": "/static/media/logo-tma-solutions.5d96da35deea7ad71925.png",
+    "static/media/tma-25year.png": "/static/media/tma-25year.0f6e3e14d202d6f0a354.png",
+    "static/media/icon-engineer.png": "/static/media/icon-engineer.6300147650362b14858f.png",
+    "static/media/logo-TMA.png": "/static/media/logo-TMA.276a3af2f8d45ff4a0d0.png",
+    "static/media/icon-data.png": "/static/media/icon-data.a3d215a01e9c989a2e7f.png",
+    "static/media/icon-4G-5G.png": "/static/media/icon-4G-5G.50862b4e121a6d05042c.png",
+    "static/media/icon-telecom.png": "/static/media/icon-telecom.f6da4ad191d57f7cfde6.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.b5809fe1.css.map": "/static/css/main.b5809fe1.css.map",
+    "main.0a28fdcc.js.map": "/static/js/main.0a28fdcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5809fe1.css",
+    "static/js/main.0a28fdcc.js"
+  ]
+}

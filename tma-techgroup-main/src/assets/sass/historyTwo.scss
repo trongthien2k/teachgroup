@@ -1,0 +1,143 @@
+.history-tow-page {
+    flex-wrap: wrap;
+    .history-page-backgroud {
+        height: calc(100vh - 102px);
+        background-repeat: no-repeat;
+        // background-size: cover;
+        background: #1EB2FF;
+        // text-align: center;
+        // background-image: url("../images/History/backgroud-frame-history.webp");
+    }
+    .history-page-backgroud-img {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        width: 100%;
+    }
+    .history-img {
+        width: 100%;
+    }
+    .history-page-title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .history-page-content {
+        padding-top: 56px;
+    }
+    .history-content {
+        display: flex;
+        padding-top: 56px;
+        padding-right: 60px;
+    }
+    .history-content-img {
+        width: 312px;
+        height: 366px;
+    }
+    .history-line {
+        width: 100%;
+    }
+    .history-content-item {
+        width: 100%;
+        position: relative;
+    }
+
+    .history-circle {
+        border-radius: 50%;
+        width: 14px;
+        background: #f8f9fa;
+        height: 14px;
+        position: absolute;
+        top: -7px
+    }
+    .circle-1 {
+        left: 5%;
+    }
+    .circle-2 {
+        left: 38%;
+    }
+    .circle-3 {
+        left: 71%;
+    }
+    .history-line-year {
+        display: flex;
+        padding-bottom: 30px;
+        position: relative;
+    }
+    .history-box-year {
+        width: 108px;
+        height: 44px;
+        background: #FFFF;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #222222;
+    }
+    .box-1 {
+        padding-left: 5%;
+    }
+    .box-2 {
+        position: absolute;
+        left: 38%;
+    }
+    .box-3 {
+        position: absolute;
+        left: 71%;
+    }
+    .history-text {
+        border-top: 1px solid #FFFFFF;
+        display: flex;
+        padding-top: 38px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #FFFFFF;
+        position: relative;
+        padding-left: 5%;
+    }
+    .history-text-ul {
+        padding-left: 20px;
+    }
+    .ul-1 {
+        width: 289px;
+    }
+    .ul-2 {
+        position: absolute;
+        left: 38%;
+        width: 220px;
+    }
+    .ul-2-VN {
+        position: absolute;
+        left: 38%;
+        width: 272px;
+    }
+    .ul-3 {
+        position: absolute;
+        left: 71%;
+        width: 244px;
+    }
+    .ul-3-VN {
+        position: absolute;
+        left: 71%;
+        width: 222px;
+    }
+    .history-text-ul > li {
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .history-tow-page {
+        .history-page-content {
+            padding-top: 116px;
+        }
+        .ul-3-VN {
+            width: unset;
+        }
+    }
+}

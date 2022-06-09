@@ -1,0 +1,22 @@
+.change-language {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: end;
+    height: 32px;
+    .container-change-language {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .change-language-div {
+        padding-top: 4px;
+    }
+    .change-language-span {
+        padding-right: 12px;
+    }
+    .cursor {
+        cursor: pointer;
+    }
+    .set-color-change-language {
+        color: #1EB2FF;
+    }
+}

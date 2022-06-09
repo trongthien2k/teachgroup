@@ -1,0 +1,184 @@
+.about-us {
+    flex-wrap: wrap;
+    height: calc(100vh - 102px);
+    justify-content: center;
+    align-items: center;
+    .about-us-content {
+        // padding-top: 68px;
+        padding-left: 60px;
+        padding-right: 78px;
+    }
+    .about-us-title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        color: #222222;
+        padding-bottom: 32px;
+    }
+    .about-us-span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #222222;
+        padding-right: 15px;
+    }
+    .about-us-img {
+        padding-right: 0 !important;
+        // padding-left: 80px;
+        background: #1EB2FF;
+        height: 100vh;
+        width: 100vh;
+        margin-left: 45px;
+        align-items: center;
+        display: flex;
+    }
+    .image-about-us-lab6 {
+        padding-top: 28px;
+        position: relative;
+        right: 90px;
+        padding-bottom: 116px;
+        filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.25));
+   }
+   .image-about-us-lab8 {
+        padding-top: 116px;
+        padding-bottom: 28px;
+        position: relative;
+        right: 55px;
+        filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.25));
+   }
+   .image-about-us-lab6-nav {
+       width: 300px;
+       height: 381px;
+   }
+   .image-about-us-lab8-nav {
+        width: 300px;
+        height: 381px;
+    }
+    .about-us-box {
+        padding-top: 32px;
+    }
+    .box-content {
+        justify-content: center;
+        height: 72px;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        margin-bottom: 16px;
+    }
+    .col-box-left {
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+    .col-box-right {
+        padding-left: 8px;
+        padding-right: 0px;
+    }
+    .box-content-img {
+        height: 32px;
+        width: 32px;
+    }
+    .box-content-text {
+        padding-left: 8px;
+    }
+    .about-us-backroud-frame {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .about-us {
+        justify-content: unset;
+        align-items: unset;
+        .about-us-content {
+            padding-top: 68px;
+        }
+        .about-us-img {
+            align-items: unset;
+        }
+        .image-about-us-lab6 {
+            padding-top: 90px;
+        }
+        .image-about-us-lab8 {
+            padding-top: 178px;
+            padding-bottom: 28px;
+            position: relative;
+            right: 55px;
+        }
+    }
+}
+// .about-us-backgroundImage {
+//     position: absolute;
+//     right: 0;
+//     top: 774px;
+//     .about-us-backgroundImage-Image{
+//         width: 1240px;
+//         height: 590px;
+//     }
+// }
+// @media screen and (min-width: 1441px) and (max-width: 1920px) {
+//     .about-us {
+//         justify-content: center;
+//         align-items: center;
+//     }
+//     .about-us .about-us-content {
+//         padding-top: 0px;
+//     }
+//     .image-about-us-lab8 {
+//         padding-top: 360px !important;
+//     }
+//     .image-about-us-lab6 {
+//         padding-top: 280px !important;
+//     }
+
+//     // .about-us .about-us-content {
+//     //     padding-top: 180px;
+//     // }
+//     // .image-about-us-lab8 {
+//     //     padding-top: 250px !important;
+//     // }
+//     // .image-about-us-lab6 {
+//     //     padding-top: 170px !important;
+//     // }
+// }
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    #about-us {
+        .about-us-backgroundImage {
+            display: none;
+        }
+        .container {
+            padding-left: 16px;
+            padding-right: 16px;
+            .about-us {
+                .about-us-content {
+                    padding-left: 15px;
+                    .about-us-title {
+                        text-align: center;
+                    }
+                }
+                .about-us-img {
+                    background: url("../../assets/images/AboutUs/background-about.webp");
+                    background-size: contain;
+                    padding: 0;
+                    position: relative;
+                    left: 15px;
+                    padding-left: 15px;
+                    margin-top: 32px;
+                    background-position: left;
+                    margin-left: 30px;
+                    .image-about-us-lab6-nav {
+                        width: 200px;
+                        height: 270px;
+                    }
+                    .image-about-us-lab8-nav {
+                        padding: 0;
+                        width: 200px;
+                        height: 270px;
+                    }
+                }
+            }
+        }
+    }
+}
+

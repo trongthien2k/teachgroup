@@ -1,0 +1,224 @@
+.contain-banner {
+    text-align: center;
+    // padding-top: 48px;
+    .padding-left-0 {
+        padding-left: 0px !important;
+    }
+    .padding-right-0 {
+        padding-right: 0px !important;
+    }
+    .contain-banner-backgound {
+        // height: 88vh;
+        height: calc(100vh - 102px);
+        background: #1EB2FF;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../images/banner/backgound-banner-new.webp");
+    }
+    .banner-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 24px;
+    }
+    .banner-title-nav {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 140%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        // padding-top: 12px;
+    }
+    .banner-title-slider-2 {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 87px;
+    }
+    .banner-title-nav-2 {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .banner-title-slider-3 {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 42px;
+    }
+    .banner-contain-logo-three {
+        padding-top: 64px;
+    }
+    .banner-logo-three {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
+        height: 267px;
+        flex-wrap: wrap;
+    }
+    .map-slider-3 {
+        padding-top: 10px;
+    }
+    .logo-tma-three {
+        padding-top: 80px;
+        // padding-bottom: 80px;
+    }
+    .group-logo-banner {
+        flex-wrap: wrap;
+        .logo-banner-1 {
+            flex: 1 0 50px;
+        }
+        .group-logo-banner-bot {
+            flex: 2 0 50px;
+            display: flex;
+            .logo-tma-three-nav {
+                flex: 1 0 50px;
+            }
+        }
+        .logo-tma-three-nav {
+            // max-width: 80%;
+            // max-height: 100%;
+            object-fit: none;
+            height: 80%;
+        }
+    }
+    .banner-bg-right {
+        text-align: end;
+    }
+    .icon-banner-slider {
+        padding-top: 21px;
+        // padding-bottom: 20px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+    }
+    .icon-banner-slider-2 {
+        padding-top: 90px;
+    }
+    .icon-banner-slider-3 {
+        padding-top: 20px;
+    }
+    .mySlider {
+        display: block;
+    }
+    .slick-slide img {
+        display: initial; 
+    }
+    .banner-slider2-engineer {
+        justify-content: center;
+        font-size: 28px;
+        padding-top: 12px;
+        color: #222222;
+        > b {
+            padding-right: 5px;
+        }
+    }
+    .banner-slider2-backgoud-bg {
+        margin-left: -111px;
+    }
+    @media (max-width: 1024px) {
+        .logo-tma-three-nav {
+            width: 550px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1366px) {
+    .contain-banner-backgound {
+        // display: unset !important;
+        justify-content: unset !important;
+        align-items: unset !important;
+    }
+    .banner-logo-tma {
+        padding-top: 56px !important;
+    }
+    .banner-contain-logo-three {
+        padding-top: 48px !important;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .contain-banner {
+        .slick-list {
+            .slick-track {
+                width: 100% ;
+                .container {
+                    overflow: hidden;
+                }
+                .banner-logo-tma {
+                    img {
+                        width: 73px;
+                        height: 54px;
+                    }
+                }
+                .banner-title {
+                    font-size: 39px; // design : 40px
+                    p {
+                        // font-size: 40px;
+                        // display: inline-block;
+                        span {
+                            // font-size: 40px;
+                            display: inline-block;
+                        }
+                    }
+                }
+                .banner-title-nav {
+                    font-size: 18px;
+                }
+                .banner-contain-logo-three {
+                    .banner-logo-three {
+                        position: relative;
+                        .banner-bg {
+                            // display: none;
+                            position: absolute;
+                            width: 60%;
+                            height: 60%;
+                            bottom: 0;
+                            padding: 0;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                        .banner-bg-right {
+                            right: 0;
+                            bottom: unset;
+                        }
+                        .logo-tma-three {
+                            padding: 0;
+                            .group-logo-banner {
+                                justify-content: center !important;
+                                align-items: center;
+                                flex-direction: column;
+                                padding: 45px 28px 30px 28px;
+                                row-gap: 26px;
+                                .group-logo-banner-bot {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    column-gap: 20px;
+                                }
+                                .logo-tma-three-nav {
+                                    width: 45%;
+                                    // height: auto;
+                                    object-fit: contain;
+                                    // padding: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

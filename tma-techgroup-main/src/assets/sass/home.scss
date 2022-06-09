@@ -1,0 +1,210 @@
+.none-desktop {
+    display: block !important;
+}
+.mobile-page {
+    display: none !important;
+}
+.home-page {
+   .home-aboutus-technology {
+       position: relative;
+   }
+   .aboutus-technology-contain-img {
+       position: absolute;
+       top: 1152px;
+   }
+   .aboutus-technology-img {
+       height: 1350px;
+       width: 800px;
+   }
+   .aboutus-TechnologySolutions-contain-img {
+        position: absolute;
+        top: 3800px;
+        right: 0px;
+   }
+   .aboutus-TechnologySolutions-img {
+       height: 1350px;
+   }
+
+//    carousel
+   .carousel-control-prev {
+       display: none;
+   }
+   .carousel-control-next {
+        bottom: 20px;
+        top: unset;
+        justify-content: end;
+        right: 20px;
+   }
+   .carousel-control-next-icon {
+        background-image: url("../images/banner/icon-next.webp");
+        width: 48px;
+        height: 24px;
+   }
+   .carousel-indicators {
+        bottom: 20px;
+        padding-right: 140px;
+   }
+   .visually-hidden {
+        display: none;
+   }
+   .carousel-indicators [data-bs-target] {
+        width        : 7px;
+        height       : 9px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.3);
+        border       : none;
+        margin-left: 6px;
+    }
+   .carousel-indicators .active {
+        width        : 28px !important;
+        height       : 4px !important;
+        border-radius: 100px !important;
+        background   : #FFFFFF !important;
+    }
+    .carousel-indicators {
+        align-items: center;
+    }
+
+    button:focus {
+        outline: unset;
+    }
+    .carousel-control-next:focus {
+        color: #fff !important;
+        text-decoration: none !important;
+        outline: 0 !important;
+        opacity: .9 !important;
+    }
+}
+
+.carousel-control-next {
+    color: #fff !important;
+    text-decoration: none !important;
+    outline: 0 !important;
+    opacity: .9 !important;
+}
+
+
+
+
+.home-page {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(255, 255, 255, 0.3) !important;
+    }
+    .carousel-indicators .active {
+        background   : #FFFFFF !important;
+    }
+   
+}
+.about-us {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+}
+.clients-map {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+    .carousel-control-next-icon {
+        background-image: url("../images/banner/icon-next-black.webp");
+   }
+}
+
+.technologies {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+}
+
+.membersOne {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+    .carousel-control-next-icon {
+        background-image: url("../images/banner/icon-next-black.webp");
+   }
+}
+.membersTwo {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+}
+.largeTalentPool {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+    .carousel-control-next-icon {
+        background-image: url("../images/banner/icon-next-black.webp");
+   }
+}
+.experiencedInLarge {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+}
+.TMASolutionsBinhDinh {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+}
+
+.researchCenter {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+}
+.dataScienceLab {
+    .carousel-indicators [data-bs-target] {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    .carousel-indicators .active {
+        background: #1EB2FF !important;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .none-desktop {
+        display: none !important; 
+    }
+    .mobile-page {
+        display: block !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home-page {
+        .aboutus-technology-contain-img {
+            display: none;
+        }
+        .aboutus-TechnologySolutions-contain-img {
+            display: none;
+        }
+    }
+}

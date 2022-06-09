@@ -1,0 +1,108 @@
+.members-five {
+    background: #1EB2FF;
+    .members-five-backgroud {
+        height: calc(100vh - 102px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        background-image: url("../images/Solutions/backgroud-frame-one.webp");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .members-five-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .content {
+        padding: 56px 125px 50px 125px
+    }
+    .content-image {
+        padding-right: 36px;
+    }
+    .box-backgroud {
+        background: #FFFFFF;
+        width: 238px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .box {
+        padding-bottom: 30px;
+    }
+    .content-box-right {
+        padding-left: 24px;
+    }
+    .box-text {
+        padding-left: 11px;
+    }
+    .content-box {
+        position: relative;
+    }
+    .Solutions-title-hr {
+        border: 3px solid #FFFFFF;
+    }
+    .Solutions-title-hr-nav-1 {
+        width: 50px;
+        position: absolute;
+        left: 224px;
+        top: 45px;
+    }
+    .Solutions-title-hr-nav-2 {
+        width: 50px;
+        position: absolute;
+        left: 224px;
+        bottom: 30px;
+    }
+    .Solutions-title-hr-nav-3 {
+        width: 50px;
+        position: absolute;
+        left: 75px;
+        transform: rotate(90deg);
+        top: 90px;
+    }
+    .Solutions-title-hr-nav-4 {
+        width: 50px;
+        position: absolute;
+        left: 75px;
+        transform: rotate(90deg);
+        top: 200px;
+    }
+    .Solutions-title-hr-nav-5 {
+        width: 50px;
+        position: absolute;
+        left: 75px;
+        transform: rotate(90deg);
+        top: 310px;
+    }
+    .Solutions-title-hr-nav-6 {
+        width: 50px;
+        position: absolute;
+        right: 90px;
+        transform: rotate(90deg);
+        top: 90px;
+    }
+    .Solutions-title-hr-nav-7 {
+        width: 50px;
+        position: absolute;
+        right: 90px;
+        transform: rotate(90deg);
+        top: 200px;
+    }
+    .Solutions-title-hr-nav-8 {
+        width: 50px;
+        position: absolute;
+        right: 90px;
+        transform: rotate(90deg);
+        top: 310px;
+    }
+}

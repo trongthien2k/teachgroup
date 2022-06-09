@@ -1,0 +1,111 @@
+.footer-contain {
+    padding-top: 120px;
+    .footer-contain-content {
+        display: flex;
+    }
+    .footer-contain-content-nav {
+        display: flex;
+    }
+    .footer-content-logo {
+        padding-top: 48px;
+        padding-bottom: 61px;
+    }
+    .menu-footer-contain-div {
+        padding-left: 16px;
+    }
+    .footer-content {
+        list-style-type: none;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 140%;
+        padding-top: 78px;
+        justify-content: end;
+        padding-bottom: 77px;
+        text-transform: uppercase;
+        display: flex;
+    }
+    .menu-tag-a {
+        text-decoration: none;
+        color:#222222
+    }
+    .footer-tma-solutions {
+        height: 40px;
+        background: #4D4D4D;
+    }
+    .footer-tma-solutions-nav {
+        display: flex;
+    }
+    .footer-tma-contten {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: rgba(255, 255, 255, 0.8);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer-tma-image {
+        color: rgba(255, 255, 255, 0.8);
+        justify-content: end;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .footer-tma-image-in {
+        padding-right: 12px;
+    }
+    .footer-tma-image-footer {
+        height: 24px;
+        width: 24px
+    }
+    .logo-tma-footer {
+        width: 173px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-contain {
+        padding-top: 24px;
+        .footer-content {
+            justify-content: unset;
+            display: unset;
+        }
+        .footer-contain-content-nav {
+            display: unset;
+        }
+        .footer-content-logo {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .menu-footer-contain {
+            padding-left: 0px;
+            padding-bottom: 24px;
+        }
+        .menu-footer-contain-div {
+            padding-left: 0px;
+        }
+        .footer-tma-solutions  {
+            height: unset;
+        }
+        .footer-tma-solutions-nav {
+            flex-direction: column;
+        }
+        .footer-tma-contten {
+            text-align: center;
+            order: 2;
+        }
+        .footer-tma-image {
+            text-align: center;
+            justify-content: center;
+            order: 1;
+        }
+        .footer-tma-image-footer {
+            height: 36px;
+            width: 36px
+        }
+        .logo-tma-footer {
+            width: 100px;
+            height: 46px;
+        }
+    }
+}
+

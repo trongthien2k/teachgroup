@@ -1,0 +1,94 @@
+.members-four {
+    background: #1EB2FF;
+    .members-four-backgroud {
+        height: calc(100vh - 102px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        background-image: url("../images/Solutions/backgroud-frame-one.webp");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .members-four-contain {
+        padding-left: 191px;
+        padding-right: 191px;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding-top: 35px;
+    }
+    .title-span {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding-top: 10px;
+    }
+    .content {
+        padding-top: 30px;
+    }
+    .content-icon {
+        padding-bottom: 8px;
+    }
+    .content-title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 146%;
+        color: #FFFFFF;
+    }
+    .content-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 146%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 8px;
+    }
+    .image-lab-6 {
+        // width: 480px;
+        width: 100%;
+        height: 238px;
+        filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.25));
+    }
+    .image-lab-8 {
+        // width: 480px;
+        width: 100%;
+        height: 238px;
+        filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.25));
+    }
+    .image {
+        padding-top: 40px;
+        padding-bottom: 51px;
+    }
+    .image-col-lab-6 {
+        padding-left: 0px;
+        padding-right: 12px;
+    }
+    .image-col-lab-8 {
+        padding-right: 0px;
+        padding-left: 12px;
+    }
+    .hr {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        height: 59px;
+        // transform: rotate(90deg);
+        // width: 59px;  
+    }
+    .content-letf {
+        padding-left: 134px;
+        padding-right: 40px;
+    }
+    .content-betwen {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .content-right {
+        padding-left: 40px;
+    }
+}
